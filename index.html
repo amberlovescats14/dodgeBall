@@ -1,28 +1,42 @@
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>DodgeBall</title>
+  <title>Dodge Ball</title>
 </head>
-
 <body>
-    <button id="button">Add to team</button>
-    <h2>Signed Up</h2>
-  <div id="signedUp"></div>
-  <h2>Players</h2>
-  <div id="players">
-  </div>
-  <div class="blueTeam">
-    <h2>Blue Team</h2>
-    <button class="blue"></button>
+  <div>
+      <h4>List Of People</h4>
+      <ul id="people"></ul>
   </div>
 
 
+  <button onclick="listPeopleChoices()">List People</button>
 
 
-  <script src="./main.js"></script>
+  <div>
+      <h4>Dodge Ball Players</h4>
+      <ul id="players"></ul>
+  </div>
+
+
+  <div>
+      <h4>Blue Team</h4>
+      <ul id="blue"></ul>
+  </div>
+
+
+
+  <div>
+      <h4>Red Team</h4>
+      <ul id="red"></ul>
+  </div>
+
+
+
+  
+  <script src='./main.js'></script>
 </body>
-
 </html>
